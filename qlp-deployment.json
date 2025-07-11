@@ -1,0 +1,12 @@
+{
+  "scaling": {
+    "target_cpu": 80,
+    "max_replicas": 3,
+    "min_replicas": 1
+  },
+  "platform": "kubernetes",
+  "resources": {
+    "cpu": "500m",
+    "memory": "512Mi"
+  }
+}
